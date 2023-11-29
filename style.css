@@ -519,39 +519,28 @@ pic-center-wrapper{
     background: #888;
     -webkit-box-shadow: inset 1px 1px 2px rgba(0,0,0,0.3);
 }
-.article {
-    font-family: 'Arial', sans-serif;
-    max-width: 800px;
-    margin: auto;
-    padding: 20px;
+.resume-section {
+    position: relative;
+    margin-left: 30px;
+    margin-bottom: 20px;
 }
-.article-content {
-    border-left: 4px solid #333; /* 左側邊線 */
-    padding-left: 20px; /* 文字與邊線的間隙 */
-    margin-bottom: 20px; /* 段落之間的間距 */
+.timeline {
+    position: absolute;
+    left: -15px; /* Adjust this to move the line left or right */
+    top: 0;
+    bottom: 0;
+    width: 2px; /* Thickness of the line */
+    background: #333; /* Color of the line */
 }
-.article-content p {
-    margin: 5px 0; /* 段落內的間距 */
-    line-height: 1.6; /* 行高 */
-}
-.article-content p:first-child {
-    font-weight: bold; /* 日期加粗 */
-    color: #555; /* 日期顏色 */
-}
-.article-content p:nth-child(2) {
-    font-style: italic; /* 公司名稱斜體 */
-    color: #777; /* 公司名稱顏色 */
-}
-.article-content p:last-child {
-    margin-bottom: 10px; /* 最後一個段落的間距 */
-}
-.article-title {
-    text-align: center; /* 標題置中 */
-    margin-bottom: 30px; /* 標題與內容的間距 */
-}
-.article-line {
-    border: none;
-    height: 1px;
-    background-color: #ccc; /* 分隔線顏色 */
-    margin-bottom: 20px; /* 分隔線與內容的間距 */
+.work-experience:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: -22px; /* To center the circle on the timeline */
+    top: 0;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: #fff;
+    border: 2px solid #333; /* Color of the circle */
 }
