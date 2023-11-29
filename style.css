@@ -1,14 +1,14 @@
 @font-face {
-  font-family: corbel_normal;
-  src: local("corbel"),
-    url(/font/corbel.ttf) format("opentype");
+    font-family: corbel_normal;
+    src: local("corbel"),
+        url(/font/corbel.ttf) format("opentype");
 }
 
 @font-face {
-  font-family: corbel_bold;
-  src: local("corbel"),
-    url(/font/corbel.ttf) format("opentype");
-    font-weight: bold;
+    font-family: corbel_bold;
+    src: local("corbel"),
+        url(/font/corbel.ttf) format("opentype");
+        font-weight: bold;
 }
 
 body,html{
@@ -265,49 +265,49 @@ body,html{
 }
 
 .skill-chart{
-  width:93%;
-  display:flex;
-  margin: 20px;
+    width:93%;
+    display:flex;
+    margin: 20px;
 }
 
 .doc-icon{
-  height:50px;
-  flex: 0 0 38px;
-  
-  margin-top:2px;
+    height:50px;
+    flex: 0 0 38px;
+    
+    margin-top:2px;
 }
 
 .content{
-  height:inherit;
-  flex: 1 1 auto;
-  
-  padding-left: 20px;
+    height:inherit;
+    flex: 1 1 auto;
+    
+    padding-left: 20px;
 }
 
 .skill-name{
-  height:calc(100%-28px);
-  font-family: "微軟雅黑","微軟正黑體",sans-serif;
-  font-size: 18px;
-  font-weight: bold;
+    height:calc(100%-28px);
+    font-family: "微軟雅黑","微軟正黑體",sans-serif;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .wrapper{
-  height:28px;
-  display:flex;
+    height:28px;
+    display:flex;
 }
 
 .chart-bar{
-   height:inherit;
+    height:inherit;
 	flex: 1 1 auto;
 }
 
 .skill-level{
-  height:inherit;
-  flex: 0 0 115px;
-  margin-left: 26px;
-  font-size: 21px;
-  
-  line-height: 28px;
+    height:inherit;
+    flex: 0 0 115px;
+    margin-left: 26px;
+    font-size: 21px;
+    
+    line-height: 28px;
 }
 
 #html-name{
@@ -518,4 +518,29 @@ pic-center-wrapper{
 ::-webkit-scrollbar-thumb:active {
     background: #888;
     -webkit-box-shadow: inset 1px 1px 2px rgba(0,0,0,0.3);
+}
+.resume-section {
+    position: relative;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.timeline {
+    position: absolute;
+    left: -15px; /* Adjust this to move the line left or right */
+    top: 0;
+    bottom: 0;
+    width: 2px; /* Thickness of the line */
+    background: #333; /* Color of the line */
+}
+.work-experience:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: -22px; /* To center the circle on the timeline */
+    top: 0;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: #fff;
+    border: 2px solid #333; /* Color of the circle */
 }
