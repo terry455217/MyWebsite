@@ -467,6 +467,10 @@ pic-center-wrapper{
 }
 
 .works-intro{
+    text-align: justify;    /* 使得文本两端对齐 */
+    hyphens: auto;          /* 允许在需要的时候自动断词 */
+    width: 80%;             /* 可调整为适当的宽度 */
+    margin: 0 auto;         /* 段落居中显示 */
     font-size: 20px;
 }
 
