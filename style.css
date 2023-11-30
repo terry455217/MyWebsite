@@ -544,3 +544,20 @@ pic-center-wrapper{
     background: #fff;
     border: 2px solid #333; /* Color of the circle */
 }
+.image-link {
+    display: inline-block;
+    text-decoration: none; /* 移除超連結下劃線 */
+}
+
+.image-link img {
+    width: 100px; /* 或你想要的任何尺寸 */
+    height: auto;
+    transition: transform 0.3s ease; /* 平滑放大動畫效果 */
+}
+
+.image-link:hover img {
+    transform: scale(1.1); /* 鼠標懸停時放大圖片 */
+}
+.image-link:hover {
+    text-decoration: none; /* 確保懸停時無下劃線 */
+}
