@@ -77,6 +77,10 @@ body,html{
     margin: 0;
 }
 
+.center-text {
+    text-align: center;
+}
+
 #device{
     padding-top: 50px;
     display: block;
@@ -359,51 +363,166 @@ body,html{
 }
 
 #jq-name{
-    color:#4aa86c;
+    color:#602C50;
 }
 
 #jq-doc{
-    background-color:#4fb474;
-    border-color: transparent transparent transparent #3f9960;
+    background-color:#602C50;
+    border-color: transparent transparent transparent #602C50;
 }
 
 #jq-bar{
+    background: #602C50; /* Old browsers */
+    background: -moz-linear-gradient(left,  #602C50 0%, #602C50 84%, #dadada 84%, #dadada 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #602C50 0%,#602C50 84%,#dadada 84%,#dadada 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #602C50 0%,#602C50 84%,#dadada 84%,#dadada 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+#vue-name{
+    color: #42b883;
+}
+
+#vue-doc{
+    background-color:#42b883;
+    border-color: transparent transparent transparent #42b883;
+}
+
+#vue-bar{
     background: #4aa86c; /* Old browsers */
-    background: -moz-linear-gradient(left,  #4aa86c 0%, #4aa86c 84%, #dadada 84%, #dadada 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left,  #4aa86c 0%,#4aa86c 84%,#dadada 84%,#dadada 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right,  #4aa86c 0%,#4aa86c 84%,#dadada 84%,#dadada 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: -moz-linear-gradient(left,  #42b883 0%, #42b883 25%, #dadada 25%, #dadada 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #42b883 0%,#42b883 25%,#dadada 25%,#dadada 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #42b883 0%,#42b883 25%,#dadada 25%,#dadada 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
 #jsp-name{
-    color:#d55c4b;
+    color:#f89820;
 }
 
 #jsp-doc{
-    background-color:#c75a4c;
-    border-color: transparent transparent transparent #ab3c2d;
+    background-color:#f89820;
+    border-color: transparent transparent transparent #f89820;
 }
 
 #jsp-bar{
-    background: #b14739; /* Old browsers */
-    background: -moz-linear-gradient(left,  #b14739 0%, #b14739 80%, #dadada 80%, #dadada 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left,  #b14739 0%,#b14739 80%,#dadada 80%,#dadada 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right,  #b14739 0%,#b14739 80%,#dadada 80%,#dadada 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: #f89820; /* Old browsers */
+    background: -moz-linear-gradient(left,  #f89820 0%, #f89820 80%, #dadada 80%, #dadada 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #f89820 0%,#f89820 80%,#dadada 80%,#dadada 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #f89820 0%,#f89820 80%,#dadada 80%,#dadada 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
 #php-name{
-    color:#6785b7;
+    color:#777BB3;
 }
 
 #php-doc{
-    background-color:#6d8bbd;
-    border-color: transparent transparent transparent #4d6388;
+    background-color:#777BB3;
+    border-color: transparent transparent transparent #777BB3;
 }
 
 #php-bar{
     background: #b14739; /* Old browsers */
-    background: -moz-linear-gradient(left,  #6785b7 0%, #6785b7 20%, #dadada 20%, #dadada 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left,  #6785b7 0%,#6785b7 20%,#dadada 20%,#dadada 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right,  #6785b7 0%,#6785b7 20%,#dadada 20%,#dadada 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: -moz-linear-gradient(left,  #777BB3 0%, #777BB3 50%, #dadada 50%, #dadada 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #777BB3 0%,#777BB3 50%,#dadada 50%,#dadada 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #777BB3 0%,#777BB3 50%,#dadada 50%,#dadada 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    /*50%*/
+}
+
+#c-name{
+    color:#A179DC;
+}
+
+#c-doc{
+    background-color:#A179DC;
+    border-color: transparent transparent transparent #A179DC;
+}
+
+#c-bar{
+    background: #b14739; /* Old browsers */
+    background: -moz-linear-gradient(left,  #A179DC 0%, #A179DC 30%, #dadada 30%, #dadada 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #A179DC 0%,#A179DC 30%,#dadada 30%,#dadada 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #A179DC 0%,#A179DC 30%,#dadada 30%,#dadada 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    /*50%*/
+}
+
+#python-name{
+    color:#4B8BBE;
+}
+
+#python-doc{
+    background-color:#4B8BBE;
+    border-color: transparent transparent transparent #4B8BBE;
+}
+
+#python-bar{
+    background: #b14739; /* Old browsers */
+    background: -moz-linear-gradient(left,  #4B8BBE 0%, #4B8BBE 15%, #dadada 15%, #dadada 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #4B8BBE 0%,#4B8BBE 15%,#dadada 15%,#dadada 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #4B8BBE 0%,#4B8BBE 15%,#dadada 15%,#dadada 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    /*50%*/
+}
+
+#SpringM-name{
+    color:#ff8c00;
+}
+
+#SpringM-doc{
+    background-color:#ff8c00;
+    border-color: transparent transparent transparent #ff8c00;
+}
+
+#SpringM-bar{
+    background: #ff8c00; /* Old browsers */
+    background: -moz-linear-gradient(left,  #ff8c00 0%, #ff8c00 80%, #dadada 80%, #dadada 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #ff8c00 0%,#ff8c00 80%,#dadada 80%,#dadada 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #ff8c00 0%,#ff8c00 80%,#dadada 80%,#dadada 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+#SpringB-name{
+    color:#ff8c00;
+}
+
+#SpringB-doc{
+    background-color:#ff8c00;
+    border-color: transparent transparent transparent #ff8c00;
+}
+
+#SpringB-bar{
+    background: #ff8c00; /* Old browsers */
+    background: -moz-linear-gradient(left,  #ff8c00 0%, #ff8c00 10%, #dadada 10%, #dadada 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #ff8c00 0%,#ff8c00 10%,#dadada 10%,#dadada 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #ff8c00 0%,#ff8c00 10%,#dadada 10%,#dadada 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+#Laravel-name{
+    color:#F05340;
+}
+
+#Laravel-doc{
+    background-color:#F05340;
+    border-color: transparent transparent transparent #F05340;
+}
+
+#Laravel-bar{
+    background: #F05340; /* Old browsers */
+    background: -moz-linear-gradient(left,  #F05340 0%, #F05340 65%, #dadada 65%, #dadada 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #F05340 0%,#F05340 65%,#dadada 65%,#dadada 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #F05340 0%,#F05340 65%,#dadada 65%,#dadada 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+#net-name{
+    color:#512bd4;
+}
+
+#net-doc{
+    background-color:#512bd4;
+    border-color: transparent transparent transparent #512bd4;
+}
+
+#net-bar{
+    background: #b14739; /* Old browsers */
+    background: -moz-linear-gradient(left,  #512bd4 0%, #512bd4 45%, #dadada 45%, #dadada 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #512bd4 0%,#512bd4 45%,#dadada 45%,#dadada 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #512bd4 0%,#512bd4 45%,#dadada 45%,#dadada 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     /*50%*/
 }
 
